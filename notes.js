@@ -46,7 +46,7 @@ function main() {
       break;
     }
     case "count": {
-      console.log(store.count(store.all()));
+      console.log(`You have ${store.count(store.all())} notes.`);
       break;
     }
     default:
